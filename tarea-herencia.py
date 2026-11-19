@@ -40,3 +40,10 @@ producto1 = Producto("Camiseta", 20, 10)
 comprar_producto_cliente(cliente=cliente1, producto=producto1, unidades=3)
 print("Dinero restante:", cliente1.dinero)
 print("Stock restante:", producto1.stock)
+
+cliente1.color_de_pelo = "castaño"
+cliente1.color_de_ojos = "marrones"
+cliente1.numero_de_telefono = "600123456"
+print("Color de pelo:", cliente1.color_de_pelo)
+print("Color de ojos:", cliente1.color_de_ojos)
+print("Número de teléfono:", cliente1.numero_de_telefono)
